@@ -8,7 +8,7 @@ test('has title', async ({ page }) => {
 });
 
 test('click link that doesnt exists', async ({ page }) => {
-  await page.getByRole('button', { name: 'Node.js' }).hover();
+  await page.getByRole('button', { name: 'Node.js' }).click();
   await page.getByRole('navigation').getByRole('link', { name: 'Python' }).click();
 });
 
