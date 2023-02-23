@@ -1,4 +1,6 @@
 node_modules/
 /test-results/
+*webm
 /playwright-report/
+/playwright/*.webm
 /playwright/.cache/
